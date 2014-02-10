@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu component</title>
+    <link rel="stylesheet" href="../build/build.css" />
+    <script src="../build/build.js"></script>
+  </head>
+  <body>
+    <script>
+      var Menu = require('menu');
+
+      var menu = new Menu;
+      menu.add('google', 'http://google.com/');
+      document.body.appendChild(menu.el);
+    </script>
+  </body>
+</html>
